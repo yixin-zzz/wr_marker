@@ -1,0 +1,19 @@
+{
+  "name": "wr_marker",
+  "version": "1.0.0",
+  "description": "A node cli tool to get bookmarks from weread",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yixin_zzz",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "colors": "^1.4.0",
+    "commander": "^5.0.0",
+    "inquirer": "^7.1.0",
+    "lodash": "^4.17.15",
+    "pad": "^3.2.0"
+  }
+}
