@@ -53,24 +53,24 @@ npm run marker
   获取书本热门划线 
 ```
 
-#### 获取书架列表 
+#### 1.获取书架列表 
 获取书架列表会直接获取当前用户（cookie中获取）书架上的书，以列表形式列出：id, 书名及作者。
 
-#### 获取书本个人划线
+#### 2.获取书本个人划线
 ```shell
 ? 选择操作:  获取书本个人划线
 ? 请输入书本的id:  
 ```
 需要继续输入书籍的 id （也就是书架列表的第一列的数据），目前不支持批量操作。
-相关内容会按格式写入到 config.json 中 `${bookMarkFolder}\${bookTitle}.txt` 中。
+相关内容会按 config.json 的配置写入到 `${bookMarkFolder}\${bookTitle}.txt` 中。
 
-#### 获取书本热门划线 
+#### 3.获取书本热门划线 
 ```shell
 ? 选择操作:  获取书本热门划线
 ? 请输入书本的id:  
 ```
 同理，需要继续输入书籍的 id ，目前不支持批量操作。
-相关内容会按格式写入到 config.json 中 `${bestBookMarkFolder}\${bookTitle}.txt` 中。
+相关内容会按 config.json 的配置写入到 `${bestBookMarkFolder}\${bookTitle}.txt` 中。
 
 如果操作成功会提示，可以选择继续操作(y) 或者退出(N): 
 ```shell
@@ -96,5 +96,5 @@ npm run marker
 也可以自己实现markdown类型的生成。文件的生成的相关方法见 lib/parse.js 中的 `writeToString` 等等。
 
 ## 后续
-计划是想写一个简单的搜索但是实在是找不到相关api。
+计划是想写一个简单的搜索但是实在是找不到相关api。  
 接下来打算写一个 [markdown to XMind](https://github.com/yixin-zzz/md-to-xmind) 的小工具顺便学习使用一下 SDK。
