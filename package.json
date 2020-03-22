@@ -1,10 +1,11 @@
 {
   "name": "wr_marker",
-  "version": "1.0.0",
-  "description": "A node cli tool to get bookmarks from weread",
-  "main": "src/main.js",
+  "version": "0.0.1",
+  "description": "A node.js tool to get bookmarks from weread",
+  "main": "./lib/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "marker": "node lib/main start"
   },
   "author": "yixin_zzz",
   "license": "ISC",
