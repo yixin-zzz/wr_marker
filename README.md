@@ -2,7 +2,7 @@
 获取微信读书笔记的小工具。
 A node.js tool to get bookmarks from weread。
 
-## About
+## About
 参考 [arry-lee/wereader](https://github.com/arry-lee/wereader) 的微信读书爬虫实现的 node.js 版本的小工具，可直接在命令行执行。
 
 想从微信读书复制笔记到印象笔记，结果受剪贴板长度限制每次都失败，耐着性子一点点粘贴结果格式又乱套了 : )   后来搜到了 arry-lee/wereader，因为刚好在学 node.js 就对着文档＋各种谷歌写了这个小工具。 至今还没搞明白 commander 是怎么用的。 
@@ -19,7 +19,8 @@ git clone git@github.com:yixin-zzz/wr_marker.git
 npm install
 ```
 
-### 配置文件 config.json
+### 配置文件
+配置文件  config.json 位于根目录下。
 
 | 属性 | 类型 | 默认值 | 是否必填 |
 |:---- |:----:|:-------:|:--------:|
@@ -38,7 +39,7 @@ npm install
 
 
 ### 功能介绍
-配置完成并保存之后在根目录（wr_marker）下执行：
+配置完成并保存之后，在根目录（wr_marker）下执行：
 ```shell
 # 运行工具
 npm run marker
