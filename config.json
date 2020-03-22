@@ -1,0 +1,8 @@
+{
+    "cookie": "wr_avatar=http%3A%2F%2Fthirdwx.qlogo.cn%2Fmmopen%2Fvi_32%2FqvLkfh1YU0C2aTVjJ7376SI6yIVQFWOMtCUx1z3ToY8P8wibh8Tu3kzibAZJppLP9aCg4zeP5pOiaiaB5EHM6Tnx3Q%2F132; wr_name=ZYX; wr_logined=1; wr_vid=210683533; wr_localvid=5cc329307c8ec68d5cc4098; wr_gender=0; wr_skey=vF0GQQ_p",
+    "bestBookMarkFolder": "./sample/bestbookmark",
+    "bookMarkFolder": "./sample/bookmark",
+    "chapterPrefix": "◆ ",
+    "markPrefix": ">> ",
+    "showMarkCreatedTime": "true"
+}
