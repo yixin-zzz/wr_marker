@@ -97,4 +97,3 @@ npm run marker
 
 ## 后续
 计划是想写一个简单的搜索但是实在是找不到相关api。  
-接下来打算写一个 [markdown to XMind](https://github.com/yixin-zzz/md-to-xmind) 的小工具顺便学习使用一下 SDK。
